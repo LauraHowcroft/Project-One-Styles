@@ -1,0 +1,85 @@
+/* STYLES */
+
+body {
+    background:black;
+    color: orangered;
+    font-family:'Inter', sans-serif;
+    text-align: justify;
+}
+
+main {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p { text-indent: 10px;
+}
+
+h1 {color: greenyellow;
+    font-size: 50px;
+    line-height: 110%;
+    letter-spacing: 1px;
+}
+
+em {color: ghostwhite;
+    font-size: 25px;
+}
+
+header {min-height: 60vh;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+border: 20px solid orangered;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+a {
+    color: ghostwhite;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover { color: greenyellow
+}
+
+h2 {
+    color: greenyellow;
+padding-top: 20px;
+}
+
+h3 {color: greenyellow;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 1.5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    text-underline-offset: 2px;
+}
+
+h4 {color: greenyellow;
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 1.5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    text-underline-offset: 2px;
+}
+
+li {color: ghostwhite;
+    font-weight: 8px;
+    padding-bottom: 3px;
+    /* bullet color */
+}
